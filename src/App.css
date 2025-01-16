@@ -1,0 +1,18 @@
+.gif-container {
+  display: flex;             /* Enables flexbox for centering */
+  justify-content: center;   /* Centers horizontally */
+  align-items: center;       /* Centers vertically */
+  width: 100vw;              /* Full viewport width */
+  height: 100vh;             /* Full viewport height */
+  margin: 0;                 /* No margin */
+  padding: 0;                /* No padding */
+  overflow: hidden;          /* Ensures no scrollbars */
+  background-color: #000;    /* Optional: Set background color */
+} 
+
+.gif-container img {
+  width: 80%;               /* Scale the image to fit the width */
+  height: 80%;              /* Scale the image to fit the height */
+  object-fit: cover;         /* Ensures image covers the screen */
+  border: none;              /* Removes borders */
+}
